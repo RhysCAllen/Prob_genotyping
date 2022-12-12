@@ -151,8 +151,8 @@ points(Homozyg~H_a, pch=0)   # overlay points of "Homozyg" pdf onto the plot
 
 abline(v=C, col="red", lwd=3, lty=2) #enter a dashed red line at cutoff threshold, C
 
-cdf_het <- round(dgamma(C, shape=rho*phi*n_a_i1, scale=eta),4)  #calculates the mass for Heterozyg at cutoff C of H_a
-cdf_hom <- round(dgamma(C, shape=rho*phi*n_a_i2, scale=eta),4)  #calculates the mass for Homozyg at cutoff C of H_a
+cdf_het <- round(pgamma(C, shape=rho*phi*n_a_i1, scale=eta),4)  #calculates the cum prob for Heterozyg at cutoff C of H_a
+cdf_hom <- round(pgamma(C, shape=rho*phi*n_a_i2, scale=eta),4)  #calculates the cum prob for Homozyg at cutoff C of H_a
 
 spot <- (max(xtotal)-100)  #put upper rght-hand corner of legend in the right spot for chnging x axis scales between simulations
 
