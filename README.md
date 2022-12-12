@@ -14,5 +14,5 @@ End product upon completion will include an additional tidyverse script for web-
 
 ## Sample of Model Simulation Output Plot
 
-<img src="https://github.com/RhysCAllen/Prob_genotyping/blob/master/Rplot03.png" alt="Allelic Dropout Simulation" title="Sample Plot of Simulation Output showing cumul prob of allelic dropout for heterozygous and homozygous locus">
+<img src="https://github.com/RhysCAllen/Prob_genotyping/blob/master/Rplot03.png" width=300 align=right alt="Allelic Dropout Simulation" title="Sample Plot of Simulation Output showing cumul prob of allelic dropout for heterozygous and homozygous locus">
 
